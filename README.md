@@ -5,6 +5,6 @@ We’ve tested our system successfully, achieving stable and responsive flight p
 Stay tuned as we release test flight videos on our YouTube channel to showcase the system in action!
 ## System diyagram and prototype
 
-##Video test : https://youtu.be/rFQacead64g
+## Video test : https://youtu.be/rFQacead64g
 
 
