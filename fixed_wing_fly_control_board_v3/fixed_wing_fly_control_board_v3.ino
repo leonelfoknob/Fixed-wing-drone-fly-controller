@@ -151,7 +151,8 @@ void loop() {
             
 // Limit the pitch and roll control output to the range of the servo
             pid_pitch_angle = map(pitch_output,-100, 100, 1000, 2000);
-            pid_roll_angle = map(roll_output,-200, 200, 2000, 1000);
+            /*pid_roll_angle = map(roll_output,-200, 200, 2000, 1000);*/
+            pid_roll_angle = map(roll_output,200, -200, 2000, 1000);
 
 //control aileron left right and stabilizide it if it fall
             if(aileron_val < 1400 || aileron_val > 1600){
